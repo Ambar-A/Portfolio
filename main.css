@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: white;
+    
+}
+
+nav {
+/*    background-image: linear-gradient(to bottom right, );*/
+    background-color: rgba(93, 149, 196, 0.26);
+    height: 100px; 
+}
+
+ol {
+    list-style: none;
+    margin-top: 0;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Josefin Slab', serif;
+    color: black;
+}
+
+li {
+    display: block;
+    float: right;
+    padding-right: 60px;
+    margin: 35px;
+    font-size: 20px;
+    opacity: .5;
+    transition: opacity .75s;
+}
+
+li:hover {
+  opacity: 1;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.my-pic {
+    margin-right:auto;
+    margin-left: auto;
+}
+
+p {
+    font-family: 'Poiret One', cursive;
+    color: #495667;
+}
+
+.my-portfolio {
+    font-family: 'Concert One', cursive;
+    font-size: 50px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.top, .copy {
+  color: rgb(255, 255, 255);
+  text-align: right;
+}
+.footer {
+  background-color:rgba(37, 36, 36, 0.76);
+}
